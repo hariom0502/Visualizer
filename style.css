@@ -1,0 +1,14 @@
+.bar{
+    width:8px;
+    height:80vh;
+    background-color:red;
+    margin: 1px;
+
+}
+
+.parent{
+display:flex;
+flex-direction: row;
+justify-content: center;
+}
+
