@@ -1,14 +1,27 @@
-.bar{
-    width:8px;
-    height:80vh;
-    background-color:red;
-    margin: 1px;
 
+#navbar{
+display: flex;
+flex-direction: row;
+
+
+}
+
+#navbar>div{
+   margin:10px;
+   padding:10px 
 }
 
 .parent{
 display:flex;
 flex-direction: row;
 justify-content: center;
+
+}
+
+.slidecontainer{
+display:flex;
+
+flex-direction: column;
+
 }
 

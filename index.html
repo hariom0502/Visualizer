@@ -5,28 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Algo Visualiser</title>
-    <link href="style.css" rel="stylesheet"></link>
+    <link rel="stylesheet" href="style.css"></link>
 </head>
 <body>
-    
-      
-    <div>
-    <input type="number" placeholder="value" id='noOfDiv' /> 
-     <button id="generate-bar">Generate bar</button>
-</div>
-    <div class="parent" id="parent">
-       
-    </div>
-
-    <div class="navBar">
-        <h2>Sorting Visualizer</h2>
-        <div class="sort_btn">
-            <button id="merge">Merge sort</button>
-            <button id="quick">Quick sort</button>
-            <button id="heap">Heap sort</button>
-            <button id="bubble">Bubble sort</button>
+    <div id="navbar">
+        <div class="slidecontainer">
+            <h3>Select Array Size</h3>
+            <input type="range" min="0" max="160" value="80" class="slider" id="myRange" />
         </div>
-    <script src="index.js"></script>
+        <div >
+            <h3>Sorting Visualizer</h3>
+                <div class="sort_btn">
+                    <button id="merge">Merge sort</button>
+                    <button id="quick">Quick sort</button>
+                    <button id="heap">Heap sort</button>
+                    <button id="bubble">Bubble sort</button>
+                </div>
+       </div>
+       <div>
+        <button id="reset">Reset</button>
+        <button id="stop">Start</button>
+       </div>
+    
+    </div> 
+    
+    <div class="parent" id="parent">
+    
+    <script src="index.js" type="module"></script>
 </body>
 
 </html>
